@@ -3,7 +3,7 @@ package com.platzi.market.domain;
 public class Product {
 
 	private int productId;
-	private String nombre;
+	private String name;
 	private int categoryId;
 	private double price;
 	private int stock;
@@ -20,14 +20,14 @@ public class Product {
 		this.productId = productId;
 	}
 
-	public String getNombre()
+	public String getName()
 	{
-		return nombre;
+		return name;
 	}
 
-	public void setNombre(String nombre)
+	public void setName(String name)
 	{
-		this.nombre = nombre;
+		this.name = name;
 	}
 
 	public int getCategoryId()
